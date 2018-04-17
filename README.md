@@ -2,7 +2,7 @@
 
 A [RFID/SerialPort API](https://github.com/chan2k14/RFIDPL2303API) intended for [Profilic PL2303 Chip](http://www.prolific.com.tw/US/ShowProduct.aspx?p_id=156&pcid=41), EEPROM Writer.
 
-This library is intended to be a cross-platform development within **Java**, **C#** and **Kotlin** that will guarantee to work between **Windows** and **Linux** Environment.
+This library is intended to be a cross-platform development within **Java**, **C#** and **Kotlin** that will guarantee to work between **Windows**, **Linux**, **Mac** and **Solaris** Environment.
 
 ---
 ## Requirements
@@ -23,15 +23,9 @@ To allow the API to work flawlessly in the first run, you should comply this fol
 
 ###### Serial and Parallel Communication Reader/Writer
 
-* [RXTX (Java/Kotlin) - Windows and Linux OS ](http://fizzed.com/oss/rxtx-for-java)
+* [RXTX (Java/Kotlin) - Windows, Linux, Mac and Solaris OS ](http://rxtx.qbang.org/wiki/index.php/Download)
 
-###### Setup:
-
->1. Copy **RXTXcomm.jar** in `../Java/jdk/'x.x.x_xx'/jre/lib/ext/`
->
->2. Copy **rxtxParallel.dll** and **rxtxSerial.dll** in `../Java/jdk/'x.x.x_xx'/jre/bin/`
->
->**Note: The hypened text may depend on the version of jdk setup in your IDE.**
+>**Note:** Use **README** from the certain downloaded file for further setup details that may depend on the current OS platform you are using. Or you can visit **rxtx** [wiki documentation site](http://rxtx.qbang.org/wiki/index.php/Main_Page) for more info.
 
 ### C#.NET
 
@@ -167,6 +161,10 @@ utilities.findDevicePort();
 ---
 ## Source
 
-[RXTX for Java](http://fizzed.com/oss/rxtx-for-java)
+[RXTX Wiki](http://rxtx.qbang.org/wiki/index.php/Main_Page)
+
+[Serial Port Communication for Java Documentation](https://docs.oracle.com/cd/E17802_01/products/products/javacomm/reference/api/javax/comm/SerialPort.html)
 
 [Profilic PL2303HXD Documentation](http://www.prolific.com.tw/US/ShowProduct.aspx?p_id=156&pcid=41)
+
+[stackoverflow](https://stackoverflow.com/questions/4436733/how-to-write-java-code-that-return-a-line-of-string-into-a-string-variable-from)
